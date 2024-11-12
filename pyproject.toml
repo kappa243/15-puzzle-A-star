@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "15-puzzle-a-star"
+version = "1.0.0"
+description = ""
+authors = ["Szymon Idec <szymon.idec@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+start = "15_puzzle_a_star.main:main"
